@@ -70,7 +70,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
             {/* Logo HALE */}
             <div className="mb-4">
               <motion.img 
-                src="/Logos/SímboloOficial.png" 
+                src="Logos/SímboloOficial.png" 
                 alt="Logo da Hale" 
                 className="w-auto h-32 md:h-48 lg:h-64"
                 animate={{
