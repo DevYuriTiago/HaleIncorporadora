@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building2, Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
+import {Mail, Phone, MapPin, Youtube, Instagram, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -8,8 +8,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Building2 className="h-8 w-8 text-white" />
-              <span className="text-2xl font-bold text-white">Hale</span>
+            <img 
+              src="Logos/LogoBranco.png" 
+              alt="HALE" 
+              className="h-16 w-auto"
+            />
             </div>
             <p className="text-gray-300">
               Construindo sonhos com qualidade e sustentabilidade desde 2021.
@@ -21,15 +24,15 @@ const Footer = () => {
             <div className="space-y-2 text-gray-300">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>contato@hale.com.br</span>
+                <span>haleincorporadora@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>+55 11 1234-5678</span>
+                <span>+55 81 99910-3679</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span>São Paulo, Brasil</span>
+                <span>Av. Gov. Agamenon Magalhaes, nº 2656, Empresarial Agamenon Magalhães, Sala 1401, 52.020-000, Espinheiro, Recife/PE.</span>
               </div>
             </div>
           </div>
@@ -37,13 +40,13 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Redes Sociais</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-secondary transition-colors">
-                <Facebook className="h-6 w-6" />
+              <a href="https://www.youtube.com/@HALEInc" className="text-gray-300 hover:text-secondary transition-colors">
+                <Youtube className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-secondary transition-colors">
+              <a href="https://www.instagram.com/haleincorporadora/" className="text-gray-300 hover:text-secondary transition-colors">
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-secondary transition-colors">
+              <a href="https://www.linkedin.com/in/hale-incorporadora-9b9b76283" className="text-gray-300 hover:text-secondary transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
             </div>
