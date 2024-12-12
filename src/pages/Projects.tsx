@@ -11,7 +11,7 @@ interface ProjectCardProps {
 const projectsData = [
   {
     id: 'project1',
-    title: 'Projeto 1',
+    title: 'Perspectivas Digitais',
     image: '/project1/cover.jpg'
   },
   {

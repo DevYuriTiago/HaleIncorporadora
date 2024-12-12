@@ -15,9 +15,13 @@ interface ProjectData {
 const projectsData: ProjectData[] = [
   {
     id: 'project1',
-    title: 'Projeto 1',
+    title: 'Pespectivas Digitais',
     description: 'Descrição detalhada do Projeto 1. Aqui você pode adicionar todas as informações relevantes sobre o projeto.',
-    images: ['/project1/image1.jpg', '/project1/image2.jpg', '/project1/image3.jpg']
+    images: [
+      '/public/images/Pespectivas/Pespectiva-sala.jpeg',
+      '/public/images/Pespectivas/Pespectiva-quarto.jpeg',
+      '/public/images/Pespectivas/Pespectiva-quarto1.jpeg'
+    ]
   },
   {
     id: 'project2',

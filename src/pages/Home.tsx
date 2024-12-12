@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 const values = [
   {
     icon: <Shield className="h-8 w-8" />,
-    title: 'Valores',
-    description: 'Responsabilidade Social e ambiental, integridade, profissionalismo, qualidade, materialização de sonho.',
+    title: 'Missão',
+    description: 'Construir moradias de qualidade, visando materializar os sonhos dos nossos clientes.',
   },
   {
     icon: <Users className="h-8 w-8" />,
