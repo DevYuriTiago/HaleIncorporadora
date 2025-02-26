@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -28,10 +29,13 @@ const Hero = () => {
             <p className="text-xl text-gray-200 mb-8">
               Criando espaços inovadores que transformam vidas e respeitam nosso meio ambiente.
             </p>
-            <button className="bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-lg flex items-center space-x-2 transition-colors">
+            <Link to="/projects" 
+                  className="bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-lg 
+                           flex items-center space-x-2 transition-colors 
+                           inline-block transform hover:scale-105 duration-300">
               <span>Conheça nossos projetos</span>
-              <ArrowRight className="h-5 w-5" />
-            </button>
+              <ArrowRight className="h-5 w-5 ml-2" />
+            </Link>
           </motion.div>
         </div>
       </div>
